@@ -122,7 +122,7 @@ def main():
         view_button = tk.Button(root, text="View Table", command=open_view_table_window, font=custom_font_text, bg="#007FFF", fg="white")  # Use custom text font
         view_button.pack(pady=10)
 
-        team_members = ["Anitej Mishra", "S Gagan", "Satvik Sharma"]
+        team_members = ["Akash jain", "S Gagan", "Satvik Sharma"]
         team_label = tk.Label(root, text="Team Members:", font=("Qatar2022-Medium", 12, "bold"), fg="#FF9933")  # Use custom text font
         team_label.pack()
         for member in team_members:
